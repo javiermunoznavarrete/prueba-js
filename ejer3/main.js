@@ -10,3 +10,6 @@ function Alumnos("nombre", [nota]) {
 
 		}
 var jose = new Alumnos(.n1, [.n2,.n3])
+
+document.write(jose)
+console.log(jose)
