@@ -1,12 +1,12 @@
+function Alumnos("nombre", [nota]) {
 
-var    alumno1    =    {nombre:    "Matías",    edad:5}
+			    this."nombre" = "nombre";
+			    this.[nota] = [
+			    		var r=0;
+						for(var q=0;q<nota.length;q++)
+						{
+						if(typeof(nota[q])=='number') {r+=nota[q];}
+						} ];
 
-console.log(alumno1)
-
-var    alumno2    =    alumno1
-console.log(alumno1)
-
-alumno2.nombre    =    "Sebastián"
-
-console.log(alumno1)
-console.log(alumno2)
+		}
+var jose = new Alumnos(.n1, [.n2,.n3])
